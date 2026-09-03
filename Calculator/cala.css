@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, hsl(231, 6%, 45%), #764ba2);
 }
 
 .calculator {
@@ -23,7 +23,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #333;
 }
 
@@ -111,7 +111,7 @@ button:hover {
     margin-top: 10px;
     font-size: 15px;
     background: #333;
-    color: white;
+    color: rgb(33, 26, 26);
 }
 
 @media (max-width: 450px) {
